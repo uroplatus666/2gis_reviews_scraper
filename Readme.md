@@ -1,6 +1,6 @@
 # 2GIS Reviews Scraper
 
-This Python script scrapes restaurant reviews from 2GIS for a specified city (default: Tashkent) using Selenium WebDriver. It processes an input Excel file containing organization details (e.g., IDs, names, phone numbers, coordinates) and collects reviews, saving them to CSV files. In the example with Tashkent, the script successfully extracted approximately 62% of the available reviews, indicating that it may not capture all reviews due to factors like dynamic content loading or website restrictions.
+This Python script scrapes restaurant reviews from 2GIS for a specified city (default: Tashkent) using Selenium WebDriver. It processes an input Excel file containing organization details (e.g., IDs, names, phone numbers, coordinates) and collects reviews, saving them to CSV files. In the example with Tashkent, the script successfully extracted approximately `62%` of the available reviews, indicating that it may not capture all reviews due to factors like dynamic content loading or website restrictions.
 
 ## Features
 - Scrapes reviews from 2GIS firm/branch pages.
