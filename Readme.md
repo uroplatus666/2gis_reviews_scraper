@@ -16,12 +16,16 @@ This Python script scrapes restaurant reviews from 2GIS for a specified city (de
 
 ## Installation
 1. Clone or download the repository.
-2. Create and activate a virtual environment:
+   ```bash
+   git clone https://github.com/uroplatus666/2gis_reviews_scraper.git
+   cd 2gis_reviews_scraper
+   ```
+3. Create and activate a virtual environment:
    ```bash
    python -m venv .venv
    .venv\Scripts\Activate
    ```
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    pip install selenium webdriver_manager pandas openpyxl
    ```
